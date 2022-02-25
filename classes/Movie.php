@@ -2,7 +2,7 @@
 class Movie {
     private $title;
     private $genre;
-    private $anno;
+    private $year;
 
     public function __construct($_title,$_genre){
         $this->title = $_title;
@@ -10,7 +10,7 @@ class Movie {
     }
 
     public function getInfo(){
-        return "[{$this->title},{$this->genre},{$this->anno}]";
+        return "[{$this->title},{$this->genre},{$this->year}]";
     }
 
     public function getTitle(){
@@ -21,12 +21,12 @@ class Movie {
         return "{$this->genre}";
     }
 
-    public function getAnno(){
-        return "{$this->anno}";
+    public function getYear(){
+        return "{$this->year}";
     }
 
-    public function setAnno($_anno){
-        $this->anno=$_anno;
+    public function setYear($year){
+        $this->year=$year;
     }
 }
 

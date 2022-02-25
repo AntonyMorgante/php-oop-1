@@ -6,8 +6,8 @@ $catalog = [
     new Movie("John Wick II","azione")
 ];
 
-$catalog[0]->setAnno(2014);
-$catalog[1]->setAnno(2017);
+$catalog[0]->setYear(2014);
+$catalog[1]->setYear(2017);
 
 ?>
 
